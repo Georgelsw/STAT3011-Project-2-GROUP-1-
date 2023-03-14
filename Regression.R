@@ -55,4 +55,3 @@ summary(m11)
 #reg_df$pizza_count is not significant, drop it
 #Adjusted R-squared is 0.4026, which is low. Note that GDP has large value, so also consider log-transformation
 
-#Remedy: Drop pizza_count and log-trans
