@@ -1,10 +1,10 @@
-## STAT3011-Project-2
-# Statistic project 2-Pizza Analysis 
-This project is based on Chapter 27: Pizza Restaurant Data Analysis of Data Science, Analytics, and AI for Business and the Real World. By using the data csv provided in 
+# STAT3011-Project-2
+## Statistic project 2-Pizza Analysis 
+This project is based on Chapter 27: Pizza Restaurant Data Analysis of Data Science, Analytics, and AI for Business and the Real World. By using the data csv provided in the reference book, we performed different data manipulation and analysis to solve different problems.
 
 For information of the data csv, visit (https://raw.githubusercontent.com/rajeevratan84/data-analyst-bootcamp/master/8358_1.csv).
 
-
+### Table of contents
 0. Data Research & Cleaning
 PIC: All
 - Search for extra data like GDP, profit from selling pizza, etc
