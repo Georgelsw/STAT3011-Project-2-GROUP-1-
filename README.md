@@ -13,7 +13,7 @@ For information of the data csv, visit (https://raw.githubusercontent.com/rajeev
 
 ### 0. Data Processing
 Person-in-charge: All
-Related Documents: 
+Related Documents: 2016 US GDP.xlsx, Detect Outlier.ipynb, Imputation.ipynb, newpizzadata.csv, pizza&GDP.csv
 - Searched 2016 US GDP for Accommodation and Food Services as extra data
 - Outlier (delete?)
 - Missing data (delete/replace by average?)
