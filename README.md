@@ -23,7 +23,7 @@ Related Documents: 2016 US GDP.xlsx, Detect Outlier.ipynb, Imputation.ipynb, new
 Problem: State and location of the pizza restaurant?  
 Person-in-charge: LI Shengwei, WONG Tuen Hung  
 Related Documents:
-- problems solution,improved code and extra plots
+- problems solution,improved code and extra graphs
 - pizza map (average price, restaurant location, restaurant counts)
 - word cloud  (the most popular pizza in menus, the most restaurant brand names and the most average price for pizza by detect the texts in csv.file.) 
 
