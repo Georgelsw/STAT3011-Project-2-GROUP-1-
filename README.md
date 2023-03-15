@@ -15,13 +15,15 @@ For information of the data csv, visit (https://raw.githubusercontent.com/rajeev
 Person-in-charge: All  
 Related Documents: 2016 US GDP.xlsx, Detect Outlier.ipynb, Imputation.ipynb, newpizzadata.csv, pizza&GDP.csv  
 - Searched 2016 US GDP for Accommodation and Food Services as extra data  
-- Outlier (delete?)  
-- Missing data (delete/replace by average?)  
+- Missing data（ use imputation to replace the Nah data and zero data)
+- Outlier (detect and delete outlier for smooth data visualisation,regreesion and data.map)  
+
 
 ### 1. Data visualization  
 Problem: State and location of the pizza restaurant?  
 Person-in-charge: LI Shengwei, WONG Tuen Hung  
-Related Documents:  
+Related Documents:
+- problems solution,improved code and extra plots
 - pizza map (average price, restaurant location, restaurant counts)
 - word cloud  (the most popular pizza in menus, the most restaurant brand names and the most average price for pizza by detect the texts in csv.file.) 
 
