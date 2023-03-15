@@ -22,8 +22,8 @@ Related Documents: 2016 US GDP.xlsx, Detect Outlier.ipynb, Imputation.ipynb, new
 Problem: State and location of the pizza restaurant?  
 Person-in-charge: LI Shengwei, WONG Tuen Hung  
 Related Documents:  
-- pizza map  
-- word cloud  
+- pizza map (average price, restaurant location, restaurant counts)
+- word cloud  (the most popular pizza in menus, the most restaurant brand names and the most average price for pizza by detect the texts in csv.file.) 
 
 ### 2. Regression  
 Problem: What factors are affecting the pizza business?  
@@ -38,10 +38,11 @@ Related Documents:
 - calculate the C.I. of average/max. price of every types of pizza?  
 
 ### 4. Decision Tree  
-Problem: ?w?  
+Problem: Find out the decision direction for defining the pizza price as expensive or not. 
 Person-in-charge: LI Shengwei, WONG Tuen Hung  
 Related Documents:  
-- classify the type of pizza by factors like state GDP/pizza price  
+- classify the type of pizza as normal or expensive by factors such as maximum price, minimum price or GDP. 
+- train parts of data set then test remaining data to check the decision tree model accuracy.
 
 ### Contributing
 LI Shengwei - https://github.com/Georgelsw  
