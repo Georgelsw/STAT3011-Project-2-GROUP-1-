@@ -15,17 +15,17 @@ For information of the data csv, visit (https://raw.githubusercontent.com/rajeev
 Person-in-charge: All  
 Related Documents: 2016 US GDP.xlsx, Detect Outlier.ipynb, Imputation.ipynb, newpizzadata.csv, pizza&GDP.csv  
 - Searched 2016 US GDP for Accommodation and Food Services as extra data  
-- Missing data（ use imputation to replace the Nah data and zero data)
+- Missing data (use imputation to replace the Nah data and zero data)  
 - Outlier (detect and delete outlier for smooth data visualisation,regreesion and data.map)  
 
 
 ### 1. Data visualization  
-Problem: State and location of the pizza restaurant?  Which is the most popular pizza, the most restaurant brand names and the most prevalent average prive for pizza?
+Problem: State and location of the pizza restaurant?  Which is the most popular pizza, the most restaurant brand names and the most prevalent average prive for pizza?  
 Person-in-charge: LI Shengwei, WONG Tuen Hung  
 Related Documents:
 - problems solution,improved code and extra graphs
 - pizza map (average price, restaurant location, restaurant counts)
-- word cloud  (the most popular pizza in menus, the most restaurant brand names and the most average price for pizza by detect the texts in csv.file.) 
+- word cloud (the most popular pizza in menus, the most restaurant brand names and the most average price for pizza by detect the texts in csv.file.) 
 
 ### 2. Regression  
 Problem: What factors are affecting the pizza business?  
@@ -40,7 +40,7 @@ Related Documents:
 - calculate the C.I. of average/max. price of every types of pizza?  
 
 ### 4. Decision Tree  
-Problem: Find out the decision direction for defining the pizza price as expensive or not. 
+Problem: Find out the decision direction for defining the pizza price as expensive or not.  
 Person-in-charge: LI Shengwei, WONG Tuen Hung  
 Related Documents:  
 - classify the type of pizza as normal or expensive by factors such as maximum price, minimum price or GDP. 
