@@ -47,7 +47,7 @@ reg_df <- data[,c(3,6,8:10)]
 #Check correlation of variables
 pairs(reg_df)
 cor(reg_df)
-#correlation between predictors is not observed so multicollinearity problem, linear relationship can be observed between GDP and res_count_province
+#correlations between predictors are not observed so no multicollinearity problem, linear relationship can be observed between GDP and res_count_province
 
 #Build the model
 m11 <- lm(reg_df$GDP ~ reg_df$res_count_province + reg_df$no_choices + reg_df$pizza_count + reg_df$average_price)
