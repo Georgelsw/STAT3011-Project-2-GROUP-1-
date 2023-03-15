@@ -1,6 +1,6 @@
 # STAT3011-Project-2
 ## Statistic project 2-Pizza Analysis 
-This project is based on Chapter 27: Pizza Restaurant Data Analysis of Data Science, Analytics, and AI for Business and the Real World with members LI Shengwei, WONG Tuen Hung, LUI Chak Sum, FAN Jingyi, CHAU Ka Yan, and CHEN Lu. By using the data csv provided in the reference book, we performed different data manipulation and analysis to solve different problems.  
+This project is based on Chapter 27: Pizza Restaurant Data Analysis of Data Science, Analytics, and AI for Business and the Real World. By using the data csv provided in the reference book, we performed different data manipulation and analysis to solve different problems.  
 
 For information of the data csv, visit (https://raw.githubusercontent.com/rajeevratan84/data-analyst-bootcamp/master/8358_1.csv).  
 
@@ -42,3 +42,11 @@ Problem: ?w?
 Person-in-charge: LI Shengwei, WONG Tuen Hung  
 Related Documents:  
 - classify the type of pizza by factors like state GDP/pizza price  
+
+###Contributing
+LI Shengwei - https://github.com/Georgelsw  
+WONG Tuen Hung - https://github.com/Tuenhung  
+LUI Chak Sum - https://github.com/Funghi0705  
+FAN Jingy - https://github.com/ChloeeFan  
+CHAU Ka Yan - https://github.com/Connie13579  
+CHEN Lu - https://github.com/chenlu-helen  
