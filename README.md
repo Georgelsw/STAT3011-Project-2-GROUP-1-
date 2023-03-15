@@ -43,7 +43,7 @@ Person-in-charge: LI Shengwei, WONG Tuen Hung
 Related Documents:  
 - classify the type of pizza by factors like state GDP/pizza price  
 
-###Contributing
+### Contributing
 LI Shengwei - https://github.com/Georgelsw  
 WONG Tuen Hung - https://github.com/Tuenhung  
 LUI Chak Sum - https://github.com/Funghi0705  
