@@ -51,5 +51,5 @@ LI Shengwei - https://github.com/Georgelsw
 WONG Tuen Hung - https://github.com/Tuenhung  
 LUI Chak Sum - https://github.com/Funghi0705  
 FAN Jingy - https://github.com/ChloeeFan  
-CHAU Ka Yan - https://github.com/Connie13579  
+CHAU Ka Yan - https://github.com/Zero1470 
 CHEN Lu - https://github.com/chenlu-helen  
