@@ -55,3 +55,25 @@ summary(m11)
 #reg_df$pizza_count is not significant, drop it
 #Adjusted R-squared is 0.4026, which is low. Note that GDP has large value, so also consider log-transformation
 
+#Remedy: Drop pizza_count and log-trans
+m12 <- lm(I(log(reg_df$GDP)) ~ I(log(reg_df$res_count_province)) + I(log(reg_df$no_choices)) + I(log(reg_df$average_price)))
+summary(m12)
+#Adjusted R-squared improved to 0.6812
+plot(m12$fitted.values, m12$residuals)
+#Residual plot does not show trend, which means residuals are constant
+qqnorm(m12$residuals)
+qqline(m12$residuals, col="red")
+#qqplot show normality
+
+#==========================================================================================================
+#Final model 1: lm(I(log(reg_df$GDP)) ~ I(log(reg_df$res_count_province)) + I(log(reg_df$no_choices)) + 
+#                                       I(log(reg_df$average_price)))
+#Interpretation:
+#Around 68% of variance in the log(GDP) can be explained by log(res_count_province) + log(no_choices) + 
+#                                                           log(average_price)
+#b1 = 0.691693. For every 1% increase in the res_count_province, our GDP increases by about 0.69%.
+#b2 = -0.162580. For every 1% increase in the no_choices, our GDP decreases by about 0.16%.
+#b3 = 0.109490. For every 1% increase in the average_price, our GDP increases by about 0.11%.
+#Conclusion: Operating the res. in province with largest no. of pizza res., limiting the flavors provided 
+#            ,and increasing the pizza price bring us more profit
+#==========================================================================================================
