@@ -1,5 +1,6 @@
 #Data Input
 data<-read.csv("pizza&GDP.csv",encoding="UTF-8",row.names = 1)
+data$GDP <- as.numeric(data$GDP)
 
 #Select columns with information for regression and rearrange the order
 data<-data[,c(1,21,4,16,15,22,23)]
