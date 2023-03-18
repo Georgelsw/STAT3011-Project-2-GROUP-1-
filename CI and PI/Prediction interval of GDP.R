@@ -92,7 +92,7 @@ PI <- function(conf_level, res_count_province, no_choices, average_price) {
 # and number of pizza flavors provided in restaurant.
 #=====================================================================================================
 
-# Create a prediction interval function.
+# Create a confidence interval function.
 CI <- function(conf_level, data) {
   CI_mean <- mean(data)
   CI_sd <- sd(data)
@@ -110,7 +110,7 @@ CI(95, reg_df$res_count_province)
 CI(95, reg_df$no_choices)
 #"The required 95% CI is (9.93991682985682, 10.7754816123241)."
 #=====================================================================================================
-#Find the 95% CI for GDP with res_count_province=30, no_choices=2, average_price=19
+#Find the 95% CI for GDP with res_count_province=228.304777470989, no_choices=9.93991682985682, average_price=14.18
 PI(95,228.304777470989,9.93991682985682,14.18)
 #"The required 95% PI for GDP is (33002.0917749055, 248066.122520752)."
 #=====================================================================================================
