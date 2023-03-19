@@ -36,7 +36,7 @@ Related Documents: Regression.R, scatterplot.png, residual_plot.png, QQplot.png
 ### 3. C.I. for price of pizza  
 Problem: Range of the price that helps to maximize our profit?  
 Person-in-charge: CHAU Ka Yan, CHEN Lu  
-Related Documents:  
+Related Documents: pizza_price_CI.2.0.ipynb, Confidence interval of pizza average price.png, CI of different pizza price.r, CI of different pizza price.png, Prediction interval of GDP.R.
 - calculate the C.I. of average/max. price of every types of pizza?  
 
 ### 4. Decision Tree  
