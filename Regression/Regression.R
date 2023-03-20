@@ -80,7 +80,6 @@ BIC(lm(I(log(reg_df$GDP)) ~ I(log(reg_df$no_choices)) + I(log(reg_df$average_pri
 BIC(lm(I(log(reg_df$GDP)) ~ I(log(reg_df$res_count_province)) + I(log(reg_df$no_choices)) + I(log(reg_df$average_price))))
 #Our model has the smallest AIC (-4435.56) and BIC (5069.838), so our choices of predictors are significant, the model is finalized.
 
-
 #==========================================================================================================
 #Final model 1: lm(I(log(reg_df$GDP)) ~ I(log(reg_df$res_count_province)) + I(log(reg_df$no_choices)) + 
 #                                       I(log(reg_df$average_price)))
