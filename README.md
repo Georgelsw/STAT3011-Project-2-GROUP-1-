@@ -8,7 +8,7 @@ For information of the data csv, visit (https://raw.githubusercontent.com/rajeev
 - Data Processing  
 - Data visualization  
 - Regression  
-- C.I. for average price of pizza  
+- C.I. for price and P.I. for GDP  
 - Decision Tree  
 
 ### 0. Data Processing  
@@ -23,9 +23,9 @@ Related Documents: 2016 US GDP.xlsx, Detect Outlier.ipynb, Imputation.ipynb, new
 Problem: State and location of the pizza restaurant?  Which is the most popular pizza and the most prevalent average price for pizza?  
 Person-in-charge: LI Shengwei, WONG Tuen Hung  
 Related Documents: Data_visualisation.ipynb, Average_price.map.png, Numbers of restaurant.map.png, Restaurant location.map.png, wordcloud.ipynb
-- problems solution,improved code and extra graphs
-- pizza map (average price, restaurant location, restaurant counts)
-- word cloud (the most popular pizza in menus and the most average price for pizza by detect the texts in csv.file.) 
+- Problems solution, improved code and extra graphs
+- Pizza map (average price, restaurant location, restaurant counts)
+- Word cloud (the most popular pizza in menus and the most average price for pizza by detect the texts in csv.file.) 
 
 ### 2. Regression  
 Problem: What factors are affecting the pizza business?  
@@ -33,18 +33,19 @@ Person-in-charge: LUI Chak Sum, FAN Jingyi
 Related Documents: Regression.R, scatterplot.png, residual_plot.png, QQplot.png  
 - Build model see what factors are significant for GDP (profit of selling pizza)  
 
-### 3. C.I. for price of pizza  
-Problem: Range of the price that helps to maximize our profit?  
+### 3. C.I. for price and P.I. for GDP   
+Problem: What range of the price we should set to maximize our profit?  
 Person-in-charge: CHAU Ka Yan, CHEN Lu  
 Related Documents: pizza_price_CI.2.0.ipynb, Confidence interval of pizza average price.png, CI of different pizza price.r, CI of different pizza price.png, Prediction interval of GDP.R.
-- calculate the C.I. of average/max. price of every types of pizza?  
+- Calculate the C.I. of average/max. price of every types of pizza  
+- Calculate the P.I. of GDP  
 
 ### 4. Decision Tree  
 Problem: Find out the decision direction for defining the pizza price as expensive or not.  
 Person-in-charge: LI Shengwei, WONG Tuen Hung  
 Related Documents:  Decision Tree.R , Decision tree result.ipynb
-- classify the type of pizza as normal or expensive by factors such as maximum price, minimum price or GDP. 
-- train parts of data set then test remaining data to check the decision tree model accuracy.
+- Classify the type of pizza as normal or expensive by factors such as maximum price, minimum price or GDP. 
+- Train parts of data set then test remaining data to check the decision tree model accuracy.
 
 ### Contributing
 LI Shengwei - https://github.com/Georgelsw  
