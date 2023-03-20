@@ -22,7 +22,7 @@ Related Documents: 2016 US GDP.xlsx, Detect Outlier.ipynb, Imputation.ipynb, new
 ### 1. Data visualization  
 Problem: State and location of the pizza restaurant?  Which is the most popular pizza, the most restaurant brand names and the most prevalent average prive for pizza?  
 Person-in-charge: LI Shengwei, WONG Tuen Hung  
-Related Documents:
+Related Documents:Data_visualisation.ipynb, Average_price.map.png, Numbers of restaurant.map.png, Restaurant location.map.png
 - problems solution,improved code and extra graphs
 - pizza map (average price, restaurant location, restaurant counts)
 - word cloud (the most popular pizza in menus, the most restaurant brand names and the most average price for pizza by detect the texts in csv.file.) 
@@ -42,7 +42,7 @@ Related Documents: pizza_price_CI.2.0.ipynb, Confidence interval of pizza averag
 ### 4. Decision Tree  
 Problem: Find out the decision direction for defining the pizza price as expensive or not.  
 Person-in-charge: LI Shengwei, WONG Tuen Hung  
-Related Documents:  
+Related Documents:  Decision Tree.R , Decision tree result.ipynb
 - classify the type of pizza as normal or expensive by factors such as maximum price, minimum price or GDP. 
 - train parts of data set then test remaining data to check the decision tree model accuracy.
 
