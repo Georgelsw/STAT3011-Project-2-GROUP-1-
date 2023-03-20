@@ -25,7 +25,7 @@ Person-in-charge: LI Shengwei, WONG Tuen Hung
 Related Documents:Data_visualisation.ipynb, Average_price.map.png, Numbers of restaurant.map.png, Restaurant location.map.png
 - problems solution,improved code and extra graphs
 - pizza map (average price, restaurant location, restaurant counts)
-- word cloud (the most popular pizza in menus, the most restaurant brand names and the most average price for pizza by detect the texts in csv.file.) 
+- word cloud (the most popular pizza in menus and the most average price for pizza by detect the texts in csv.file.) 
 
 ### 2. Regression  
 Problem: What factors are affecting the pizza business?  
