@@ -66,6 +66,21 @@ qqnorm(m12$residuals)
 qqline(m12$residuals, col="red")
 #qqplot show normality
 
+#Use AIC, BIC selection to check whether all predictors are significant
+library(MASS)
+stepAIC(lm(I(log(reg_df$GDP)) ~ 1),scope = "~ I(log(reg_df$res_count_province)) + I(log(reg_df$no_choices)) + I(log(reg_df$average_price))", direction = "forward")
+stepAIC(lm(I(log(reg_df$GDP)) ~ I(log(reg_df$res_count_province)) + I(log(reg_df$no_choices)) + I(log(reg_df$average_price))),scope = "~ 1", direction = "backward")
+BIC(lm(I(log(reg_df$GDP)) ~ 1))
+BIC(lm(I(log(reg_df$GDP)) ~ I(log(reg_df$res_count_province))))
+BIC(lm(I(log(reg_df$GDP)) ~ I(log(reg_df$no_choices))))
+BIC(lm(I(log(reg_df$GDP)) ~ I(log(reg_df$average_price))))
+BIC(lm(I(log(reg_df$GDP)) ~ I(log(reg_df$res_count_province)) + I(log(reg_df$no_choices))))
+BIC(lm(I(log(reg_df$GDP)) ~ I(log(reg_df$res_count_province)) + I(log(reg_df$average_price))))
+BIC(lm(I(log(reg_df$GDP)) ~ I(log(reg_df$no_choices)) + I(log(reg_df$average_price))))
+BIC(lm(I(log(reg_df$GDP)) ~ I(log(reg_df$res_count_province)) + I(log(reg_df$no_choices)) + I(log(reg_df$average_price))))
+#Our model has the smallest AIC (-4435.56) and BIC (5069.838), so our choices of predictors are significant, the model is finalized.
+
+
 #==========================================================================================================
 #Final model 1: lm(I(log(reg_df$GDP)) ~ I(log(reg_df$res_count_province)) + I(log(reg_df$no_choices)) + 
 #                                       I(log(reg_df$average_price)))
