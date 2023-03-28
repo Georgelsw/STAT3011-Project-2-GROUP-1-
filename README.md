@@ -5,7 +5,7 @@ This project is based on Chapter 27: Pizza Restaurant Data Analysis of Data Scie
 For information of the data csv, visit (https://raw.githubusercontent.com/rajeevratan84/data-analyst-bootcamp/master/8358_1.csv).  
 
 ### Table of contents  
-- Data Processing  
+- Data Imputation 
 - Data visualization  
 - Regression  
 - C.I. for price and P.I. for GDP  
