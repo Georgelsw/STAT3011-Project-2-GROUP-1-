@@ -5,13 +5,13 @@ This project is based on Chapter 27: Pizza Restaurant Data Analysis of Data Scie
 For information of the data csv, visit (https://raw.githubusercontent.com/rajeevratan84/data-analyst-bootcamp/master/8358_1.csv).  
 
 ### Table of contents  
-- Data Imputation 
+- Data Preparation 
 - Data visualization  
 - Regression  
 - C.I. for price and P.I. for GDP  
 - Decision Tree  
 
-### 0. Data Imputation  
+### 0. Data Preparation  
 Person-in-charge: All  
 Related Documents: 2016 US GDP.xlsx, Detect Outlier.ipynb, Imputation.ipynb, newpizzadata.csv, pizza&GDP.csv  
 - Searched 2016 US GDP for Accommodation and Food Services as extra data  
