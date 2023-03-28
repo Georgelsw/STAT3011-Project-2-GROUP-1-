@@ -11,7 +11,7 @@ For information of the data csv, visit (https://raw.githubusercontent.com/rajeev
 - C.I. for price and P.I. for GDP  
 - Decision Tree  
 
-### 0. Data Processing  
+### 0. Data Imputation  
 Person-in-charge: All  
 Related Documents: 2016 US GDP.xlsx, Detect Outlier.ipynb, Imputation.ipynb, newpizzadata.csv, pizza&GDP.csv  
 - Searched 2016 US GDP for Accommodation and Food Services as extra data  
