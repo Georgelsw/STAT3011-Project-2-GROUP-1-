@@ -20,12 +20,12 @@ Related Documents: 2016 US GDP.xlsx, Detect Outlier.ipynb, Imputation.ipynb, new
 
 
 ### 1. Data visualization  
-Problem: Where is the state and location of the pizza restaurant?  Which is the most popular pizza and the most prevalent average price for pizza?  
+Problem: Where is the state and location of the pizza restaurant?  Which is the most restaurant brand names and pizza type? Which is the most prevalent average price for pizza?  
 Person-in-charge: LI Shengwei, WONG Tuen Hung  
 Related Documents: Data_visualisation.ipynb, Average_price.map.png, Numbers of restaurant.map.png, Restaurant location.map.png, wordcloud.ipynb
 - Problems solution, improved code and extra graphs
 - Pizza map (average price, restaurant location, restaurant counts)
-- Word cloud (the most popular pizza in menus and the most average price for pizza by detect the texts in csv.file.) 
+- Word cloud (the most popular pizza in menus, the most restaurant brand names and the most average price for pizza by detect the texts in csv.file.) 
 
 ### 2. Regression  
 Problem: What factors are affecting the pizza business?  
