@@ -35,6 +35,7 @@ Related Documents: Regression.R, scatterplot.png, residual_plot.png, QQplot.png
 
 ### 3. C.I. for price and P.I. for GDP   
 Problem: What range of the price we should set to maximize our profit?  
+         Where should we operate the pizza restaurant?
 Person-in-charge: CHAU Ka Yan, CHEN Lu  
 Related Documents: pizza_price_CI.2.0.ipynb, Confidence interval of pizza average price.png, CI of different pizza price.r, CI of different pizza price.png, Prediction interval of GDP.R.
 - Calculate the C.I. of average/max. price of every types of pizza  
