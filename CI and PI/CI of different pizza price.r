@@ -7,3 +7,12 @@ ggplot(data,aes(x,y))+geom_point()+geom_errorbar((aes(ymin=lower,ymax=upper)))
 +annotate("text",x=3.3,y=13.1,label="M=12.37")+annotate("text",x=4.3,y=9.2,label="M=8.78")
 +annotate("text",x=4.7,y=13.8,label="M=13.36")
 +geom_bar(stat="identity",width=0.5,fill="#999999",color="black")
+
+
+###CI for normal CI and decision tree CI
+data<-round(data.frame(x=1:2,y=c(11.96,11.96),lower=c(8.53,8.53),upper=c(14.18,13.39)),4)
+ggplot(data,aes(x,y))+geom_point()+geom_errorbar((aes(ymin=lower,ymax=upper)))
++labs(x="CI                                                  Decision tree CI",y="Pizza price")
++annotate("text",x=1,y=12.2,label="M=11.96")+annotate("text",x=2,y=12.2,label="M=11.96")
++annotate("text",x=1,y=8.3,label="8.53")+annotate("text",x=1,y=14.3,label="14.18")
++annotate("text",x=2,y=8.3,label="8.53")+annotate("text",x=2,y=13.5,label="13.39")
